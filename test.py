@@ -1,3 +1,9 @@
+'''
+Author : Izak Hearn
+Date : 13/09/2022
+Description : This is a test file for the tick tack toe game. Its purpose is to test specific 
+functions in the game
+'''
 #Test the Tick Tack Toe Game using pytest
 
 from tick_tack import *
