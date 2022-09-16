@@ -1,3 +1,8 @@
+'''
+Author : Izak Hearn
+Date : 13/09/2022
+Description : This program is a game of tick tack toe
+'''
 #Import the draw board file and use the class to draw the board
 import gamefiles.draw_board as db
 
@@ -29,7 +34,7 @@ def main() :
     #Get the players moves    
     board.getMoves()
 
-
+#
 def GetInt(prompt) :
     while True :
         try :
