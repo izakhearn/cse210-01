@@ -1,6 +1,7 @@
 '''
 Author : Izak Hearn
 Date : 13/09/2022
+Assignment : W01 Prove: Developer 
 Description : This is main file for running the tick tack toe game in a object from the main python file
 '''
 

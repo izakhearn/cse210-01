@@ -1,6 +1,7 @@
 '''
 Author : Izak Hearn
 Date : 13/09/2022
+Assignment : W01 Prove: Developer 
 Description : This program is a game of tick tack toe
 '''
 #Import the draw board file and use the class to draw the board
