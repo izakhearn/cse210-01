@@ -1,3 +1,9 @@
+'''
+Author : Izak Hearn
+Date : 13/09/2022
+Description : This is main file for running the tick tack toe game in a object from the main python file
+'''
+
 class DrawBoard : 
     def __init__(self, width, height, player1, player2, symbol1, symbol2) :
         self.width = width
@@ -25,6 +31,7 @@ class DrawBoard :
         self.player1Win = False
         self.player2Win = False
         self.draw = False
+    
     #Draw the board
     def drawBoard(self) :
         print("  ", end="")
@@ -36,6 +43,7 @@ class DrawBoard :
             for j in range(self.width) :
                 print("|", self.board[i][j], end="")
             print("|")
+
     #Get the players moves
     def getMoves(self) :
         while self.player1Win == False and self.player2Win == False and self.draw == False :
@@ -74,7 +82,7 @@ class DrawBoard :
             self.checkWin()
 
 
-#Check if the player has won by having filled a row or column or diagonal
+    #Check if the player has won by having filled a row or column or diagonal
     def checkWin(self) :
         #Check if the player has filled a row
         for i in range(self.height) :
